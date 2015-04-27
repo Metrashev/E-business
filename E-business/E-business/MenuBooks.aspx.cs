@@ -19,5 +19,10 @@ namespace E_business
             LinkButton btn = (LinkButton)sender;
             Response.Redirect("MenuBooks.aspx?Category=" + btn.Text);
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect("Details.aspx?BookID=" + GridView1.SelectedValue);
+        }
     }
 }
