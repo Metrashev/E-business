@@ -30,7 +30,7 @@ namespace E_business.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("BooksDBSQL", throwIfV1Schema: false)
         {
         }
 
