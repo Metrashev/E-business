@@ -8,9 +8,19 @@
                     <asp:LinkButton Text='<%# Bind("BookType") %>' ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
-        </Columns>
+        </Columns> 
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:BooksDBSQL %>" SelectCommand="SELECT DISTINCT BookType FROM Books"></asp:SqlDataSource>
+
+    <asp:Label ID="Label2" runat="server" Text="Търсене"></asp:Label>
+    <asp:TextBox ID="TextBoxSearchText" runat="server"></asp:TextBox>
+    <asp:Button ID="ButtonSearchBooks" runat="server" Text="Търси:" OnClick="ButtonSearchBooks_Click" />
+
+    <br />
+
+    <asp:Label ID="Label1" runat="server" Text="Кошница"></asp:Label>
+    <asp:ImageButton ImageUrl="~/BookPictures/kosh.jpg" ID="ImageButton1" runat="server" OnClick="ImageButton1_Click"/>
+
 
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="BookID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
         <Columns>

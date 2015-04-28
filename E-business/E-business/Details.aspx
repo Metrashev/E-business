@@ -60,7 +60,8 @@
             Количество:
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Добавете в кошницата" />
+            <asp:Button ID="ButtonAddToCart" runat="server" OnClick="ButtonAddToCart_Click" Text="Добавете в кошницата" />
+            <asp:LinkButton ID="LinkButtonBack" runat="server" OnClick="LinkButtonBack_Click">Назад</asp:LinkButton>
         </ItemTemplate>
     </asp:FormView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BooksDBSQL %>" SelectCommand="SELECT [BookID], [BookTitle], [BookAuthor], [BookDescription], [BookPrice] FROM [Books] WHERE ([BookID] = @BookID)">
