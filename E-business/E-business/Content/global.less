@@ -27,12 +27,35 @@ input[type="select"] {
     max-width: 280px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        margin-top: 20px;
-    }
-    .body-content {
-        padding: 0;
+@color-main-primary: #44749d;
+@color-main-secondary: #c6d4e1;
+@color-sup-primary: #bdb8ad;
+@color-sup-secondary: #e6e6e6;
+@color-neutral-primary: #898989;
+@color-neutral-secondary: #333;
+@color-neutral-hover: #6E98BC;
+
+/*HOME PAGE*/
+.wrapper-home {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    background: @color-sup-secondary;
+    padding: 150px 50px;
+
+    .hello-message, .date-now-message, .browser-message {
+        color: @color-neutral-secondary;
+        font-weight: bolder;
+        font-size: 16px;
+        span {
+            color: @color-main-primary;
+        }
     }
 }
+
+
+/*BOOKS PAGE*/
+
+

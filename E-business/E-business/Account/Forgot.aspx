@@ -1,13 +1,13 @@
-﻿<%@ Page Title="Forgot password" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forgot.aspx.cs" Inherits="E_business.Account.ForgotPassword" Async="true" %>
+﻿<%@ Page Title="Забравена парола" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forgot.aspx.cs" Inherits="E_business.Account.ForgotPassword" Async="true" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>.</h2>
+    <h2><%: Title %></h2>
 
     <div class="row">
         <div class="col-md-8">
             <asp:PlaceHolder id="loginForm" runat="server">
                 <div class="form-horizontal">
-                    <h4>Forgot your password?</h4>
+                    
                     <hr />
                     <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                         <p class="text-danger">
@@ -19,19 +19,19 @@
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
-                                CssClass="text-danger" ErrorMessage="The email field is required." />
+                                CssClass="text-danger" ErrorMessage="Задължително поле!" />
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <asp:Button runat="server" OnClick="Forgot" Text="Email Link" CssClass="btn btn-default" />
+                            <asp:Button runat="server" OnClick="Forgot" Text="Email" CssClass="btn btn-default" />
                         </div>
                     </div>
                 </div>
             </asp:PlaceHolder>
             <asp:PlaceHolder runat="server" ID="DisplayEmail" Visible="false">
                 <p class="text-info">
-                    Please check your email to reset your password.
+                    Моля, проверете Вашият Email!
                 </p>
             </asp:PlaceHolder>
         </div>

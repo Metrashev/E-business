@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="OpenAuthProviders.ascx.cs" Inherits="E_business.Account.OpenAuthProviders" %>
 
-<div id="socialLoginList">
+<div id="socialLoginList hide">
     <h4>Use another service to log in.</h4>
     <hr />
     <asp:ListView runat="server" ID="providerDetails" ItemType="System.String"
