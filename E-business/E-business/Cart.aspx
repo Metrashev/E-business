@@ -7,9 +7,25 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1">
         <ItemTemplate>
-            <uc1:BookInfo runat="server" ID="BookInfo" <%  %> />
-        </ItemTemplate>
+<%--            OrderID:
+            <asp:Label ID="OrderIDLabel" runat="server" Text='<%# Eval("OrderID") %>' />
+            <br />
+            BookID:
+            <asp:Label ID="BookIDLabel" runat="server" Text='<%# Eval("BookID") %>' />
+            <br />
+            BookTitle:
+            <asp:Label ID="BookTitleLabel" runat="server" Text='<%# Eval("BookTitle") %>' />
+            <br />
+            Price:
+            <asp:Label ID="PriceLabel" runat="server" Text='<%# Eval("Price") %>' />
+            <br />
+            Qty:
+            <asp:Label ID="QtyLabel" runat="server" Text='<%# Eval("Qty") %>' />
+            <br />
+<br />--%>
 
+            <uc1:BookInfo runat="server" ID="BookInfo" BookNum='<%# Eval("BookID") %>'/>
+        </ItemTemplate>
     </asp:DataList>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BooksDBSQL %>" SelectCommand="SELECT * FROM [ShopCart]"></asp:SqlDataSource>
 </asp:Content>
