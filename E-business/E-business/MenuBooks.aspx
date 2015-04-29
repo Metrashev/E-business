@@ -7,12 +7,12 @@
         <div class="wrapper-search">
             <asp:Label ID="Label2" runat="server" Text="Търсене" meta:resourcekey="Label2Resource1"></asp:Label>
             <asp:TextBox ID="TextBoxSearchText" runat="server" meta:resourcekey="TextBoxSearchTextResource1"></asp:TextBox>
-            <asp:Button ID="ButtonSearchBooks" runat="server" Text="Търси" OnClick="ButtonSearchBooks_Click" meta:resourcekey="ButtonSearchBooksResource1" />
+            <asp:Button ID="ButtonSearchBooks" runat="server" CssClass="btn btn-primary" Text="Търси" OnClick="ButtonSearchBooks_Click" meta:resourcekey="ButtonSearchBooksResource1" />
         </div>
 
-        <asp:GridView ID="GridView2" CssClass="table-book-category" ShowHeader="False" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" meta:resourcekey="GridView2Resource1">
+        <asp:GridView ID="GridView2" CssClass="table-book-category" ShowHeader="true" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" meta:resourcekey="GridView2Resource1">
             <Columns>
-                <asp:TemplateField HeaderText="BookType" SortExpression="BookType" meta:resourcekey="TemplateFieldResource1">
+                <asp:TemplateField HeaderText="Категория" SortExpression="BookType" meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>
                         <asp:LinkButton Text='<%# Bind("BookType") %>' ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" meta:resourcekey="LinkButton1Resource1"></asp:LinkButton>
                     </ItemTemplate>

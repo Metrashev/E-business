@@ -163,7 +163,7 @@
     <value>Цена</value>
   </data>
   <data name="ButtonSearchBooksResource1.Text" xml:space="preserve">
-    <value>Търси:</value>
+    <value>Търси</value>
   </data>
   <data name="ButtonSearchBooksResource1.ToolTip" xml:space="preserve">
     <value />
@@ -247,7 +247,7 @@
     <value />
   </data>
   <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
-    <value>BookType</value>
+    <value>Категории</value>
   </data>
   <data name="TextBoxSearchTextResource1.Text" xml:space="preserve">
     <value />
