@@ -49,6 +49,7 @@ input[type="select"] {
         color: @color-neutral-secondary;
         font-weight: bolder;
         font-size: 16px;
+
         span {
             color: @color-main-primary;
         }
@@ -57,5 +58,41 @@ input[type="select"] {
 
 
 /*BOOKS PAGE*/
+.wrapper-books {
+    .wrapper-search {
+        margin-bottom: 25px;
+    }
 
+    table {
+        float: left;
+        margin-right: 50px;
 
+        th {
+            background: @color-neutral-hover;
+            padding: 10px;
+            text-align: center;        
+        }
+
+        td {
+            background: @color-sup-secondary;
+            padding: 10px;
+            text-align: center;
+
+            a {
+                color: @color-neutral-hover;
+                font-weight: bold;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .cart-link {
+        display: block;
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+    }
+}
