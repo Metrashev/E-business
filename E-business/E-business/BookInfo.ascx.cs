@@ -23,8 +23,8 @@ namespace E_business
 
         public string BookPrice 
         {
-            get { return this.lblBookTitle.Text; }
-            set { this.lblBookTitle.Text = value; }
+            get { return this.lblBookPrice.Text; }
+            set { this.lblBookPrice.Text = value; }
         }
 
         public string BookQty 
@@ -33,9 +33,12 @@ namespace E_business
             set { this.lblBookQty.Text = value; }
         }
 
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_PreRender(object sender, EventArgs e)
         {
-
+            if (BookPrice != null && BookQty != null)
+            {
+                this.lblBooksSum.Text = Math.Round(decimal.Parse(BookPrice) + int.Parse(BookQty), 2).ToString();
+            }
         }
     }
 }
