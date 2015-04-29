@@ -70,4 +70,10 @@ input[type="select"] {
 .wrapper-books table td a:hover {
   text-decoration: none;
 }
+.wrapper-books .cart-link {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=global.css.map */
