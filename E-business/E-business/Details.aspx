@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Details.aspx.cs" Inherits="E_business.Details" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:FormView ID="FormView1" runat="server" DataKeyNames="BookID" DataSourceID="SqlDataSource1" OnPageIndexChanging="FormView1_PageIndexChanging">
+    <asp:FormView ID="FormView1" runat="server" DataKeyNames="BookID" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             BookID:
             <asp:Label ID="BookIDLabel1" runat="server" Text='<%# Eval("BookID") %>' />
@@ -43,7 +43,7 @@
             Книга Номер:
             <asp:Label ID="BookIDLabel" Visible="false" runat="server" Text='<%# Eval("BookID") %>' />
             <br />
-            <asp:Image ID="Image1" runat="server" ImageUrl='<%# "./BooksPictures/"+Eval("BookID")+".jpg" %>' />
+            <asp:Image ID="Image1" runat="server" ImageUrl='<%# "BookPictures/" + Eval("BookID") + ".jpg" %>' />
             <br />
             Заглавие:
             <asp:Label ID="BookTitleLabel" runat="server" Text='<%# Bind("BookTitle") %>' />
