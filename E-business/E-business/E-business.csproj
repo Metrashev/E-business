@@ -161,6 +161,42 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="BookInfo.ascx" />
+    <Content Include="BookPictures\aspnet2.gif" />
+    <Content Include="BookPictures\DB111.jpg" />
+    <Content Include="BookPictures\DB222.jpg" />
+    <Content Include="BookPictures\DB333.jpg" />
+    <Content Include="BookPictures\DB444.jpg" />
+    <Content Include="BookPictures\DB555.jpg" />
+    <Content Include="BookPictures\GR111.jpg" />
+    <Content Include="BookPictures\GR222.jpg" />
+    <Content Include="BookPictures\GR333.jpg" />
+    <Content Include="BookPictures\GR444.jpg" />
+    <Content Include="BookPictures\GR555.jpg" />
+    <Content Include="BookPictures\HW111.jpg" />
+    <Content Include="BookPictures\HW222.jpg" />
+    <Content Include="BookPictures\HW333.jpg" />
+    <Content Include="BookPictures\HW444.jpg" />
+    <Content Include="BookPictures\HW555.jpg" />
+    <Content Include="BookPictures\kosh.jpg" />
+    <Content Include="BookPictures\Logo.gif" />
+    <Content Include="BookPictures\SW111.jpg" />
+    <Content Include="BookPictures\SW222.jpg" />
+    <Content Include="BookPictures\SW333.jpg" />
+    <Content Include="BookPictures\SW444.jpg" />
+    <Content Include="BookPictures\SW555.jpg" />
+    <Content Include="BookPictures\SY111.jpg" />
+    <Content Include="BookPictures\SY222.jpg" />
+    <Content Include="BookPictures\SY333.jpg" />
+    <Content Include="BookPictures\SY444.jpg" />
+    <Content Include="BookPictures\SY555.jpg" />
+    <Content Include="BookPictures\WB111.jpg" />
+    <Content Include="BookPictures\WB222.jpg" />
+    <Content Include="BookPictures\WB333.jpg" />
+    <Content Include="BookPictures\WB444.jpg" />
+    <Content Include="BookPictures\WB555.jpg" />
+    <Content Include="BookPictures\xhtml.gif" />
+    <Content Include="Cart.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -338,6 +374,20 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="BookInfo.ascx.cs">
+      <DependentUpon>BookInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookInfo.ascx.designer.cs">
+      <DependentUpon>BookInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

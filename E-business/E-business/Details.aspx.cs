@@ -13,5 +13,17 @@ namespace E_business
         {
 
         }
+
+        protected void LinkButtonBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MenuBooks.aspx");
+        }
+
+        protected void ButtonAddToCart_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.Text = " Книгата/ите бяха добавени успешно ";
+            btn.Enabled = false;
+        }
     }
 }

@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="hello-message">
-        <span>Здравейте,</span><%: Context.User.Identity.GetUserName()  %> !
+        <span>Здравейте,</span><%: Context.User.Identity.GetUserName() %>!<span>Добре дошли в електронната книжарница!</span>
     </div>
 
     <div class="date-now-message">

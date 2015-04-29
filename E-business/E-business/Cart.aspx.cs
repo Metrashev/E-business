@@ -4,19 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Net.Mail;
-using System.IO;
 
 namespace E_business
 {
-    public partial class Contact : System.Web.UI.Page
+    public partial class Cart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }
