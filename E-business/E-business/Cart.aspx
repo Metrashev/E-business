@@ -5,7 +5,7 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" RepeatColumns="3" RepeatDirection="Horizontal" RepeatLayout="Table">
+    <asp:DataList CssClass="wrapper-cart" ID="DataList1" runat="server" DataSourceID="SqlDataSource1" RepeatColumns="3" RepeatDirection="Horizontal" RepeatLayout="Table">
         <ItemTemplate>
             <uc1:BookInfo runat="server" ID="BookInfo"
                 BookNum='<%# Eval("BookID") %>'

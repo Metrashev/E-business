@@ -76,7 +76,7 @@ input[type="select"] {
   float: left;
   margin-top: 20px;
 }
-/*BOOK details*/
+/*BOOK DETAILS*/
 .wrapper-book-details img {
   float: left;
 }
@@ -99,5 +99,35 @@ input[type="select"] {
 }
 .wrapper-book-details .content-book-details .back-btn {
   margin-top: 10px;
+}
+/*CONTACTS*/
+.wrapper-contacts input {
+  margin-bottom: 10px;
+}
+.wrapper-contacts span {
+  margin-top: 10px;
+}
+.wrapper-contacts .send-btn {
+  margin-top: 15px;
+  margin-left: 95px;
+}
+/*CART PAGE*/
+.wrapper-cart td {
+  width: 380px;
+  margin-right: 2%;
+  background: #c6d4e1;
+  padding: 31px;
+  border: 1px solid #898989;
+}
+.wrapper-cart td div {
+  float: left;
+  margin-right: 5px;
+}
+.wrapper-cart td span {
+  width: 65%;
+  display: inline-block;
+}
+.wrapper-cart td .cart-title-book {
+  font-weight: bold;
 }
 /*# sourceMappingURL=global.css.map */
