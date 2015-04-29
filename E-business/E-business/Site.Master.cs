@@ -75,6 +75,18 @@ namespace E_business
         {
             Context.GetOwinContext().Authentication.SignOut();
         }
+
+        protected void ImageButtonEn_Click(object sender, ImageClickEventArgs e)
+        {
+            Session["lng"] = "en-US"; 
+            Response.Redirect(Request.Path); 
+        }
+
+        protected void ImageButtonBg_Click(object sender, ImageClickEventArgs e)
+        {
+            Session["lng"] = "bg-BG"; 
+            Response.Redirect(Request.Path); 
+        }
     }
 
 }
