@@ -76,4 +76,28 @@ input[type="select"] {
   float: left;
   margin-top: 20px;
 }
+/*BOOK details*/
+.wrapper-book-details img {
+  float: left;
+}
+.wrapper-book-details .content-book-details {
+  float: left;
+  margin-top: -20px;
+  width: 50%;
+  margin-left: 15px;
+}
+.wrapper-book-details .content-book-details .book-details-header {
+  font-weight: bold;
+  font-size: 15px;
+}
+.wrapper-book-details .content-book-details .price-book {
+  color: #2bb709;
+  font-weight: bold;
+}
+.wrapper-book-details .content-book-details .add-to-cart-btn {
+  margin-top: 10px;
+}
+.wrapper-book-details .content-book-details .back-btn {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=global.css.map */
