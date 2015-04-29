@@ -7,7 +7,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1">
         <ItemTemplate>
-            <uc1:BookInfo runat="server" ID="BookInfo" <%  %> />
+            
         </ItemTemplate>
 
     </asp:DataList>
