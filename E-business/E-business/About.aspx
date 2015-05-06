@@ -1,6 +1,4 @@
-﻿<%@ Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="E_business.About" %>
-
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h3>Your application description page.</h3>
-    <p>Use this area to provide additional information.</p>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="E_business.About" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:Label ID="Label1" runat="server" Text="gay" meta:resourcekey="Label1Resource1"></asp:Label>
 </asp:Content>

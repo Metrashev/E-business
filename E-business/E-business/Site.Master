@@ -11,7 +11,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/global.min.css" rel="stylesheet" />
 </head>
@@ -46,7 +46,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Електронна книжарница</a>
+                    <ul>
+                        <li>
+                            <asp:ImageButton ID="ImageButtonBg" CssClass="bg-btn" runat="server" OnClick="ImageButtonBg_Click" meta:resourcekey="ImageButtonBgResource1" />
+                        </li>
+                        <li>
+                            <asp:ImageButton ID="ImageButtonEn" CssClass="en-btn" runat="server" OnClick="ImageButtonEn_Click" meta:resourcekey="ImageButtonEnResource1" />
+                        </li>
+                    </ul>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -54,26 +61,21 @@
                         <li><a runat="server" href="~/MenuBooks">Книги</a></li>
                         <li><a runat="server" href="~/Contact">За връзка с нас</a></li>
                         <li><a runat="server" href="~/SiteMap">Карта на сайта</a></li>
+                        <li><a runat="server" href="~/News">Новини</a></li>
                         <li><a runat="server" href="~/Cart">Кошница</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Регистрация</a></li>
-                                <li><a runat="server" href="~/Account/Login">Вход</a></li>
-                                <li>
-                                    <asp:ImageButton ID="ImageButtonBg" runat="server" OnClick="ImageButtonBg_Click"/>
-                                </li>
-                                <li>
-                                    <asp:ImageButton ID="ImageButtonEn" runat="server" OnClick="ImageButtonEn_Click"/>
-                                </li>
+                                <li><a runat="server" href="~/Account/Register">Регистрация</a> </li>
+                                <li><a runat="server" href="~/Account/Login">Вход</a> </li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Manage" title="Manage your account"><%: Context.User.Identity.GetUserName()  %></a></li>
                                 <li>
-                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Изход" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Изход" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" meta:resourcekey="LoginStatusResource1" />
                                 </li>
                             </ul>
                         </LoggedInTemplate>

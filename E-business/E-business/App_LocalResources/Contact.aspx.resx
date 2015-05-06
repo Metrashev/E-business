@@ -117,142 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+  <data name="Button1Resource1.Text" xml:space="preserve">
+    <value>Изпрати</value>
+  </data>
+  <data name="Button1Resource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+  <data name="ContactFromResource1.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
-    <value>Book No.</value>
-  </data>
-  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+  <data name="ContactFromResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+  <data name="ContactToResource1.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+  <data name="ContactToResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+  <data name="ContactUsResource1.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+  <data name="ContactUsResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>До:</value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
-    <value>Author</value>
+  <data name="LabelResource2.Text" xml:space="preserve">
+    <value>От:</value>
   </data>
-  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+  <data name="LabelResource2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+  <data name="LabelResource3.Text" xml:space="preserve">
+    <value>Относно:</value>
+  </data>
+  <data name="LabelResource3.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
-    <value>Price</value>
+  <data name="LabelResource4.Text" xml:space="preserve">
+    <value>Запитване:</value>
   </data>
-  <data name="ButtonSearchBooksResource1.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="ButtonSearchBooksResource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CommandFieldResource1.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CommandFieldResource1.CancelText" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="CommandFieldResource1.DeleteText" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="CommandFieldResource1.EditText" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="CommandFieldResource1.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CommandFieldResource1.HeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CommandFieldResource1.InsertText" xml:space="preserve">
-    <value>Insert</value>
-  </data>
-  <data name="CommandFieldResource1.NewText" xml:space="preserve">
-    <value>New</value>
-  </data>
-  <data name="CommandFieldResource1.SelectText" xml:space="preserve">
-    <value>View details</value>
-  </data>
-  <data name="CommandFieldResource1.UpdateText" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="GridView1Resource1.Caption" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GridView1Resource1.EmptyDataText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GridView1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GridView2Resource1.Caption" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GridView2Resource1.EmptyDataText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GridView2Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ImageButton1Resource1.AlternateText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ImageButton1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label1Resource1.Text" xml:space="preserve">
-    <value>Cart</value>
-  </data>
-  <data name="Label1Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Label2Resource1.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="Label2Resource1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+  <data name="LabelResource4.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="PageResource1.Title" xml:space="preserve">
-    <value>E-bookstore</value>
-  </data>
-  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
-    <value>Category</value>
-  </data>
-  <data name="TextBoxSearchTextResource1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TextBoxSearchTextResource1.ToolTip" xml:space="preserve">
-    <value />
+    <value>Електронна книжарница</value>
   </data>
 </root>

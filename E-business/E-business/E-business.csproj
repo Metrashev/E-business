@@ -209,6 +209,7 @@
     <Content Include="Details.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="MenuBooks.aspx" />
+    <Content Include="News.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -267,6 +268,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -373,13 +381,6 @@
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
@@ -432,6 +433,13 @@
       <DependentUpon>MenuBooks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -465,6 +473,36 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\About.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\About.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Site.Master.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Site.Master.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Cart.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Cart.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Contact.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Contact.aspx.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Details.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Details.aspx.en.resx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_LocalResources\MenuBooks.aspx.resx" />

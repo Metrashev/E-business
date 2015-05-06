@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BookInfo.ascx.cs" Inherits="E_business.BookInfo" %>
 <div class="wrapper-grid-cart">
-    <div class="cart-title-book">Книга №:</div>
+    <div class="cart-title-book">№:</div>
     <asp:Label CssClass="book-title" ID="lblBookNum" runat="server" Text="Label"></asp:Label>
     <div class="cart-title-book">Заглавие:</div>
     <asp:Label ID="lblBookTitle" CssClass="" runat="server" Text="Label"></asp:Label>

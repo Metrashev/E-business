@@ -172,13 +172,13 @@
     <value />
   </data>
   <data name="CommandFieldResource1.CancelText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отказ</value>
   </data>
   <data name="CommandFieldResource1.DeleteText" xml:space="preserve">
-    <value>Delete</value>
+    <value>Изтрий</value>
   </data>
   <data name="CommandFieldResource1.EditText" xml:space="preserve">
-    <value>Edit</value>
+    <value>Редактирай</value>
   </data>
   <data name="CommandFieldResource1.FooterText" xml:space="preserve">
     <value />
@@ -187,16 +187,16 @@
     <value />
   </data>
   <data name="CommandFieldResource1.InsertText" xml:space="preserve">
-    <value>Insert</value>
+    <value>Вмъкни</value>
   </data>
   <data name="CommandFieldResource1.NewText" xml:space="preserve">
-    <value>New</value>
+    <value>Нов</value>
   </data>
   <data name="CommandFieldResource1.SelectText" xml:space="preserve">
     <value>Виж детайли за книгата</value>
   </data>
   <data name="CommandFieldResource1.UpdateText" xml:space="preserve">
-    <value>Update</value>
+    <value>Промяна</value>
   </data>
   <data name="GridView1Resource1.Caption" xml:space="preserve">
     <value />
@@ -247,7 +247,7 @@
     <value />
   </data>
   <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
-    <value>Категории</value>
+    <value>Категория</value>
   </data>
   <data name="TextBoxSearchTextResource1.Text" xml:space="preserve">
     <value />

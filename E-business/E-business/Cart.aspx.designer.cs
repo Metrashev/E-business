@@ -22,6 +22,24 @@ namespace E_business {
         protected global::System.Web.UI.WebControls.DataList DataList1;
         
         /// <summary>
+        /// lblCartSum control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCartSum;
+        
+        /// <summary>
+        /// btnDeleteSelected control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDeleteSelected;
+        
+        /// <summary>
         /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>

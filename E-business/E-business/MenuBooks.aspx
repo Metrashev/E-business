@@ -10,7 +10,7 @@
             <asp:Button ID="ButtonSearchBooks" runat="server" CssClass="btn btn-primary" Text="Търси" OnClick="ButtonSearchBooks_Click" meta:resourcekey="ButtonSearchBooksResource1" />
         </div>
 
-        <asp:GridView ID="GridView2" CssClass="table-book-category" ShowHeader="true" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" meta:resourcekey="GridView2Resource1">
+        <asp:GridView ID="GridView2" CssClass="table-book-category" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" meta:resourcekey="GridView2Resource1">
             <Columns>
                 <asp:TemplateField HeaderText="Категория" SortExpression="BookType" meta:resourcekey="TemplateFieldResource1">
                     <ItemTemplate>

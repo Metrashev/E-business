@@ -13,6 +13,24 @@ namespace E_business {
     public partial class SiteMaster {
         
         /// <summary>
+        /// ImageButtonBg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButtonBg;
+        
+        /// <summary>
+        /// ImageButtonEn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButtonEn;
+        
+        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>

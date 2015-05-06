@@ -161,12 +161,48 @@ input[type="select"] {
         }
 
         span {
-            width: 65%;
+            width: 45%;
             display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .cart-title-book {
             font-weight: bold;
         }
+    }
+}
+
+ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+
+    li {
+        display: inline-block;
+    }
+
+    .bg-btn {
+        background: url(../BookPictures/flag-bg.png) no-repeat;
+        display: inline-block;
+        border: 0px;
+        cursor: pointer;
+        font-size: 15px;
+        color: transparent;
+        width: 50px;
+        height: 30px;
+    }
+
+    .en-btn {
+        background: url(../BookPictures/flag-en.png) no-repeat;
+        display: inline-block;
+        border: 0px;
+        cursor: pointer;
+        font-size: 15px;
+        color: transparent;
+        width: 50px;
+        height: 30px;
     }
 }
