@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace E_business
 {
-    public partial class MenuBooks : System.Web.UI.Page
+    public partial class MenuBooks : Inherited
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace E_business
 {
-    public partial class Cart : System.Web.UI.Page
+    public partial class Cart : Inherited
     {
         decimal bookPriceSum = 0;
 

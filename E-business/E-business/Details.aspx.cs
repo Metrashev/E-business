@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace E_business
 {
-    public partial class Details : System.Web.UI.Page
+    public partial class Details : Inherited
     {
         protected void Page_Load(object sender, EventArgs e)
         {

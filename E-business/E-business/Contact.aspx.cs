@@ -9,7 +9,7 @@ using System.IO;
 
 namespace E_business
 {
-    public partial class Contact : System.Web.UI.Page
+    public partial class Contact : Inherited
     {
         protected void Page_Load(object sender, EventArgs e)
         {

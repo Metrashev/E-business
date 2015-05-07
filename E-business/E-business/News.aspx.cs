@@ -9,7 +9,7 @@ using System.Data;
 
 namespace E_business
 {
-    public partial class News : System.Web.UI.Page
+    public partial class News : Inherited
     {
         XmlTextReader XmlTextRssReader;
         XmlDocument XmlDocumentRss;
